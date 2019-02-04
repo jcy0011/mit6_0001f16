@@ -1,0 +1,10 @@
+t1,DESCRIPTION,Brexit
+t2,TITLE,Brexit
+t3,DESCRIPTION,Theresa May
+t4,TITLE,Theresa May
+t5,OR,t1,t2
+t6,OR,t3,t4
+t7,OR,t5,t6
+t8,AFTER,1 Feb 2019 00:00:00
+t9,AND,t7,t8
+ADD,t5
